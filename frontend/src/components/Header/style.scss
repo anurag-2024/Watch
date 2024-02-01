@@ -23,11 +23,8 @@
     }
     .menuItems {
         list-style-type: none;
-        display: none;
+        display: flex;
         align-items: center;
-        @include md {
-            display: flex;
-        }
         .menuItem {
             height: 60px;
             display: flex;
